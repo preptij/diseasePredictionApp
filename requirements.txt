@@ -1,10 +1,10 @@
 streamlit==1.29.0
 pandas==2.1.4
 joblib==1.3.2
-scikit-learn==1.4.1
+scikit-learn==1.3.2
 spacy==3.5.4
 markdown2==2.4.12
 weasyprint==61.2
-transformers==4.41.1
+transformers==4.40.2
 torch==2.2.2
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
