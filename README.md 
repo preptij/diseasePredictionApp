@@ -1,0 +1,10 @@
+# 🧠 Disease Prediction App
+
+A Streamlit-based NLP app that predicts diseases based on user symptoms and recommends health precautions.
+
+## 🔧 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/disease-prediction-app.git
+   cd disease-prediction-app
