@@ -6,9 +6,13 @@ import re
 import spacy
 from spacy.matcher import PhraseMatcher
 import markdown2
+import nbimporter
 from io import BytesIO
+from joblib import load
+import os
 
-from diseasePredictionApp.notebooks.training import label_encoder
+# Load the saved label encoder
+label_encoder = load('models/label_encoder.joblib')
 from nlp_project.disease_symptom_prediction.streamlit_app import prediction, symptoms, precautions
 
 # ========== File Paths ==========
